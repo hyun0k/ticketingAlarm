@@ -4,7 +4,7 @@ import telegram
 from apscheduler.schedulers.blocking import BlockingScheduler
 
 bot = telegram.Bot(token='') # 자신의 api 키 입력
-url = 'http://www.cgv.co.kr/common/showtimes/iframeTheater.aspx?areacode=01&theatercode=0013&date=20190617'
+url = 'http://www.cgv.co.kr/common/showtimes/iframeTheater.aspx?areacode=01&theatercode=0013&date=20190623'
 
 def alarm():
     html = requests.get(url)
